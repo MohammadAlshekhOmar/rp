@@ -1,0 +1,245 @@
+{
+    "menu": [
+        {
+            "url": "admin/cp",
+            "name": "statistics",
+            "icon": "home",
+            "slug": [
+                "cp"
+            ],
+            "permissions": [
+                "VIEW_USERS",
+                "VIEW_PROVIDERS",
+                "VIEW_ROLES",
+                "VIEW_ADMINS",
+                "VIEW_SERVICES",
+                "VIEW_ORDERS",
+                "VIEW_INVOICES",
+                "VIEW_WARRANTIES",
+                "VIEW_NOTIFICATIONS",
+                "VIEW_PAYMENTMETHODS",
+                "VIEW_CATEGORIES",
+                "VIEW_REGIONS",
+                "VIEW_ADS",
+                "VIEW_INFOS",
+                "VIEW_SETTINGS"
+            ]
+        },
+        {
+            "navheader": "accounts",
+            "slug": [],
+            "permissions": [
+                "VIEW_USERS",
+                "VIEW_PROVIDERS"
+            ]
+        },
+        {
+            "url": "admin/users/index",
+            "name": "users",
+            "icon": "users",
+            "slug": [
+                "users"
+            ],
+            "permissions": [
+                "VIEW_USERS"
+            ]
+        },
+        {
+            "url": "admin/providers/index",
+            "name": "providers",
+            "icon": "user-check",
+            "slug": [
+                "providers"
+            ],
+            "permissions": [
+                "VIEW_PROVIDERS"
+            ]
+        },
+        {
+            "navheader": "roles_admins",
+            "slug": [],
+            "permissions": [
+                "VIEW_ROLES",
+                "VIEW_ADMINS"
+            ]
+        },
+        {
+            "url": "admin/roles/index",
+            "name": "roles",
+            "icon": "framer",
+            "slug": [
+                "roles"
+            ],
+            "permissions": [
+                "VIEW_ROLES"
+            ]
+        },
+        {
+            "url": "admin/admins/index",
+            "name": "admins",
+            "icon": "user-plus",
+            "slug": [
+                "admins"
+            ],
+            "permissions": [
+                "VIEW_ADMINS"
+            ]
+        },
+        {
+            "navheader": "services",
+            "slug": [],
+            "permissions": [
+                "VIEW_SERVICES"
+            ]
+        },
+        {
+            "url": "admin/services/index",
+            "name": "services",
+            "icon": "link",
+            "slug": [
+                "services"
+            ],
+            "permissions": [
+                "VIEW_SERVICES"
+            ]
+        },
+        {
+            "navheader": "orders",
+            "slug": [],
+            "permissions": [
+                "VIEW_ORDERS",
+                "VIEW_INVOICES",
+                "VIEW_WARRANTIES"
+            ]
+        },
+        {
+            "url": "admin/orders/index",
+            "name": "orders",
+            "icon": "send",
+            "slug": [
+                "orders"
+            ],
+            "permissions": [
+                "VIEW_ORDERS"
+            ]
+        },
+        {
+            "url": "admin/invoices/index",
+            "name": "invoices",
+            "icon": "layout",
+            "slug": [
+                "invoices"
+            ],
+            "permissions": [
+                "VIEW_INVOICES"
+            ]
+        },
+        {
+            "url": "admin/warranties/index",
+            "name": "warranties",
+            "icon": "package",
+            "slug": [
+                "warranties"
+            ],
+            "permissions": [
+                "VIEW_WARRANTIES"
+            ]
+        },
+        {
+            "navheader": "notifications",
+            "slug": [],
+            "permissions": [
+                "VIEW_NOTIFICATIONS"
+            ]
+        },
+        {
+            "url": "admin/notifications/index",
+            "name": "notifications",
+            "icon": "bell",
+            "slug": [
+                "notifications"
+            ],
+            "permissions": [
+                "VIEW_NOTIFICATIONS"
+            ]
+        },
+        {
+            "navheader": "settings",
+            "slug": [],
+            "permissions": [
+                "VIEW_ADS",
+                "VIEW_PAYMENTMETHODS",
+                "VIEW_CATEGORIES",
+                "VIEW_REGIONS",
+                "VIEW_INFOS",
+                "VIEW_SETTINGS"
+            ]
+        },
+        {
+            "url": "admin/ads/index",
+            "name": "ads",
+            "icon": "feather",
+            "slug": [
+                "ads"
+            ],
+            "permissions": [
+                "VIEW_ADS"
+            ]
+        },
+        {
+            "url": "admin/paymentMethods/index",
+            "name": "paymentMethods",
+            "icon": "credit-card",
+            "slug": [
+                "paymentMethods"
+            ],
+            "permissions": [
+                "VIEW_PAYMENTMETHODS"
+            ]
+        },
+        {
+            "url": "admin/categories/index",
+            "name": "categories",
+            "icon": "list",
+            "slug": [
+                "categories"
+            ],
+            "permissions": [
+                "VIEW_CATEGORIES"
+            ]
+        },
+        {
+            "url": "admin/regions/index",
+            "name": "regions",
+            "icon": "cpu",
+            "slug": [
+                "regions"
+            ],
+            "permissions": [
+                "VIEW_REGIONS"
+            ]
+        },
+        {
+            "url": "admin/infos/index",
+            "name": "infos",
+            "icon": "info",
+            "slug": [
+                "infos"
+            ],
+            "permissions": [
+                "VIEW_INFOS"
+            ]
+        },
+        {
+            "url": "admin/settings/index",
+            "name": "settings",
+            "icon": "settings",
+            "slug": [
+                "settings"
+            ],
+            "permissions": [
+                "VIEW_SETTINGS"
+            ]
+        }
+    ]
+}

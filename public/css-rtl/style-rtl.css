@@ -1,0 +1,128 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.dataTables_length {
+  text-align: right !important;
+  padding: 10px;
+}
+
+.dataTables_filter {
+  padding: 10px;
+}
+
+.dataTables_info {
+  float: right !important;
+  padding: 10px;
+}
+
+.dataTables_paginate {
+  padding: 10px;
+}
+
+input[type=number] {
+  text-align: right;
+}
+
+input[type=email] {
+  text-align: right;
+}
+
+html .content {
+  margin-left: 0 !important;
+}
+
+.vertical-layout.vertical-menu-modern.menu-expanded .main-menu .navigation li.has-sub > a:after {
+  content: " ";
+  background-image: initial;
+}
+
+.vertical-layout.vertical-menu-modern.menu-collapsed .navbar.fixed-top,
+.vertical-layout.vertical-menu-modern.menu-collapsed .navbar.floating-nav {
+  right: 112px !important;
+}
+
+.vertical-layout.vertical-menu-modern.menu-collapsed .app-content,
+.vertical-layout.vertical-menu-modern.menu-collapsed .footer {
+  margin-right: 80px !important;
+  margin-left: 0px !important;
+}
+
+[type=tel],
+[type=url],
+[type=email],
+[type=number] {
+  direction: rtl;
+}
+
+.vertical-overlay-menu .content {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.avatar-content {
+  cursor: auto !important;
+}
+
+.dtr-details {
+  text-align: right !important;
+}
+
+.statCard {
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+  border-radius: 0.428rem;
+  background-color: #fff;
+  padding: 30px 20px 10px;
+}
+
+.statCard h4 {
+  color: #6d62e4;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.statCard h3 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Tajawal", sans-serif;
+  font-size: 40px;
+}
+
+body {
+  font-family: "DroidArabicKufiRegular" !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  background: #eef0f8 !important;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  width: 70px !important;
+}
+
+table.dataTable > thead .sorting:before,
+table.dataTable > thead .sorting_asc:before,
+table.dataTable > thead .sorting_desc:before,
+table.dataTable > thead .sorting_asc_disabled:before,
+table.dataTable > thead .sorting_desc_disabled:before {
+  content: "" !important;
+  right: 0.5em !important;
+}
+
+table.dataTable > thead .sorting:after,
+table.dataTable > thead .sorting_asc:after,
+table.dataTable > thead .sorting_desc:after,
+table.dataTable > thead .sorting_asc_disabled:after,
+table.dataTable > thead .sorting_desc_disabled:after {
+  content: "" !important;
+  right: 0.5em !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-style: hidden;
+}
